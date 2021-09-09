@@ -558,7 +558,10 @@
   content: "\f081";
 }
 .fa-facebook-square:before {
-  content: "\f082";
+  content: "\f0e1";
+}
+.fa-linkedin-in:before {
+  content: "\f0e1";
 }
 .fa-camera-retro:before {
   content: "\f083";

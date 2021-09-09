@@ -81,15 +81,17 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                      What I am excited about in technology{" "}
+                        <span>Software Developer</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        I'm excited for developing innovative programs that expedite the efficiency and effectiveness of organizational success.
+                        Well-versed in technology and writing code to create systems that are reliable and user-friendly.
+                        I'm interested in programming because I have a passion for tech, creativity, and finding solutions.
+                        I love the mental challenge that programming presents and the possibility of being able to conceive a new idea and bring it to fruition.
+
                       </p>
-                      <div className="btn-wrapper">
+                      {/* <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
@@ -112,7 +114,7 @@ class Landing extends React.Component {
                             Download React
                           </span>
                         </Button>
-                      </div>
+                      </div> */}
                     </Col>
                   </Row>
                 </div>
@@ -505,8 +507,8 @@ class Landing extends React.Component {
                 />
               </svg>
             </div>
-          </section>
-          <section className="section section-lg">
+        </section>
+            {/* <section className="section section-lg">
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
@@ -769,7 +771,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-            {/* SVG separator */}
+            {/* SVG separator 
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -860,8 +862,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <Download />
+                      </section>*/}
+          <Download /> 
         </main>
         <CardsFooter />
       </>
