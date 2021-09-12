@@ -15,6 +15,8 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
+
+
 import React from "react";
 import { Link } from "react-router-dom";
 // JavaScript plugin that hides or shows a component based on your scroll
@@ -115,7 +117,7 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">Menu</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
+                      <DropdownItem to="/portfolio" tag={Link}>
                         Landing
                       </DropdownItem>
                       <DropdownItem to="/profile-page" tag={Link}>
